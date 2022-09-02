@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-mode">
+<head>
+
+    <title>CrikeyCon CTF - Carhacky Content</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css?v=d9067720f5" />
+
+    <meta name="description" content="Ever wanted to hack the CAN data of a Porsche 911?" />
+    <link rel="icon" href="https://autohackers.org/content/images/size/w256h256/format/jpeg/2022/08/autohackers_speedo_sq.jpg" type="image/jpeg" />
+    <link rel="canonical" href="https://autohackers.org/content-for-crikeycon8-ctf/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    
+    <meta property="og:site_name" content="Autohackers" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="CrikeyCon CTF - Carhacky Content" />
+    <meta property="og:description" content="Ever wanted to hack the CAN data of a Porsche 911?" />
+    <meta property="og:url" content="https://autohackers.org/content-for-crikeycon8-ctf/" />
+    <meta property="og:image" content="https://autohackers.org/content/images/2022/09/IMG_5381_1000px.jpg" />
+    <meta property="article:published_time" content="2022-09-01T10:53:48.000Z" />
+    <meta property="article:modified_time" content="2022-09-01T10:53:48.000Z" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CrikeyCon CTF - Carhacky Content" />
+    <meta name="twitter:description" content="Ever wanted to hack the CAN data of a Porsche 911?" />
+    <meta name="twitter:url" content="https://autohackers.org/content-for-crikeycon8-ctf/" />
+    <meta name="twitter:image" content="https://autohackers.org/content/images/2022/09/IMG_5381_1000px.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="2pucks" />
+    <meta name="twitter:site" content="@autohackers" />
+    <meta property="og:image:width" content="1000" />
+    <meta property="og:image:height" content="626" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Autohackers",
+        "url": "https://autohackers.org/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://autohackers.org/content/images/size/w256h256/format/jpeg/2022/08/autohackers_speedo_sq.jpg"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "2pucks",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://autohackers.org/content/images/2022/08/2pucks_thumb.png",
+            "width": 666,
+            "height": 375
+        },
+        "url": "https://autohackers.org/author/2pucks/",
+        "sameAs": []
+    },
+    "headline": "CrikeyCon CTF - Carhacky Content",
+    "url": "https://autohackers.org/content-for-crikeycon8-ctf/",
+    "datePublished": "2022-09-01T10:53:48.000Z",
+    "dateModified": "2022-09-01T10:53:48.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://autohackers.org/content/images/2022/09/IMG_5381_1000px.jpg",
+        "width": 1000,
+        "height": 626
+    },
+    "description": "Ever wanted to hack the CAN data of a Porsche 911?",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://autohackers.org/"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.12" />
+    <link rel="alternate" type="application/rss+xml" title="Autohackers" href="https://autohackers.org/rss/" />
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/@tryghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="c6912a0f6252116374e0ccdb97" data-styles="https://cdn.jsdelivr.net/npm/@tryghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://autohackers.org/" crossorigin="anonymous"></script>
+    <script defer src="/public/cards.min.js?v=d9067720f5"></script><style>:root {--ghost-accent-color: #818187;}</style>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=d9067720f5">
+
+</head>
+<body class="post-template has-cover">
+<div class="viewport">
+
+    <header id="gh-head" class="gh-head outer">
+        <nav class="gh-head-inner inner">
+
+            <div class="gh-head-brand">
+                <a class="gh-head-logo no-image" href="https://autohackers.org">
+                        Autohackers
+                </a>
+                <div class="gh-head-brand-wrapper">
+                    <button class="gh-search" data-ghost-search><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>
+                    <a class="gh-burger" role="button">
+                        <div class="gh-burger-box">
+                            <div class="gh-burger-inner"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="gh-head-menu">
+                <ul class="nav">
+    <li class="nav-home"><a href="https://autohackers.org/">Home</a></li>
+    <li class="nav-about"><a href="https://autohackers.org/about/">About</a></li>
+    <li class="nav-twitter"><a href="https://twitter.com/autohackers">Twitter</a></li>
+    <li class="nav-github"><a href="https://github.com/autohackers">Github</a></li>
+</ul>
+
+            </div>
+            <div class="gh-head-actions">
+                <button class="gh-search" data-ghost-search><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>
+                <div class="gh-social">
+                        <a class="gh-social-link gh-social-twitter" href="https://twitter.com/autohackers" title="Twitter" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="site-content">
+        
+
+
+
+<main id="site-main" class="site-main">
+<article class="article post image-small">
+
+    <header class="article-header gh-canvas">
+
+        <div class="article-tag post-card-tags">
+        </div>
+
+        <h1 class="article-title">CrikeyCon CTF - Carhacky Content</h1>
+
+            <p class="article-excerpt">Ever wanted to hack the CAN data of a Porsche 911?</p>
+
+        <div class="article-byline">
+        <section class="article-byline-content">
+
+            <ul class="author-list">
+                <li class="author-list-item">
+                    <a href="/author/2pucks/" class="author-avatar">
+                        <img class="author-profile-image" src="/content/images/size/w100/2022/08/2pucks_thumb.png" alt="2pucks" />
+                    </a>
+                </li>
+            </ul>
+
+            <div class="article-byline-meta">
+                <h4 class="author-name"><a href="/author/2pucks/">2pucks</a></h4>
+                <div class="byline-meta-content">
+                    <time class="byline-meta-date" datetime="2022-09-01">Sep 1, 2022</time>
+                        <span class="byline-reading-time"><span class="bull">&bull;</span> 3 min read</span>
+                </div>
+            </div>
+
+        </section>
+        </div>
+
+            <figure class="article-image">
+                <img
+                    srcset="/content/images/size/w300/2022/09/IMG_5381_1000px.jpg 300w,
+                            /content/images/size/w600/2022/09/IMG_5381_1000px.jpg 600w,
+                            /content/images/size/w1000/2022/09/IMG_5381_1000px.jpg 1000w,
+                            /content/images/size/w2000/2022/09/IMG_5381_1000px.jpg 2000w"
+                    sizes="(min-width: 1400px) 1400px, 92vw"
+                    src="/content/images/size/w2000/2022/09/IMG_5381_1000px.jpg"
+                    alt="Porsche 911 40Jahre edition badge"
+                />
+                    <figcaption>Porsche 911 40Jahre edition badge</figcaption>
+            </figure>
+
+    </header>
+
+    <section class="gh-content gh-canvas">
+        <p>Have you <strong>ever wanted to hack the CAN data of a Porsche 911</strong>? </p><p>The following is the background you might want if you're trying the CrikeyCon CTF car hacking challenges... then you can have a go at data recorded directly from the CAN bus of a 911 and make real-time changes to what the instrument cluster is showing you.</p><h3 id="contextwhere-the-can-bus-data-came-from">Context - where the CAN bus data came from</h3><p>The data was collected using exactly the same Raspberry Pi4 + PICAN3 hat combination as is used in the challenge.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://autohackers.org/content/images/2022/09/image-1.png" class="kg-image" alt="Raspberry Pi 4 with PICAN3 hat" loading="lazy" width="2000" height="1500" srcset="https://autohackers.org/content/images/size/w600/2022/09/image-1.png 600w, https://autohackers.org/content/images/size/w1000/2022/09/image-1.png 1000w, https://autohackers.org/content/images/size/w1600/2022/09/image-1.png 1600w, https://autohackers.org/content/images/size/w2400/2022/09/image-1.png 2400w" sizes="(min-width: 720px) 720px"><figcaption>Raspberry Pi 4 with PICAN3 hat</figcaption></figure><p>This device was connected to the CAN bus of a <strong>2004 Porsche 996 "40th Anniversary Edition" vehicle</strong> - one of the earliest Porsche cars with a CAN bus controlling the engine as well as other functions throughout the car. The model belongs to the 996 "gen 2", "facelift" or 996.2 version of the 996, if you're searching for more data.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://autohackers.org/content/images/2022/09/image.png" class="kg-image" alt="image showing getting access to the engine management computer &amp; CAN bus in the back of the 996" loading="lazy" width="1000" height="750" srcset="https://autohackers.org/content/images/size/w600/2022/09/image.png 600w, https://autohackers.org/content/images/2022/09/image.png 1000w" sizes="(min-width: 720px) 720px"><figcaption>Getting access to the engine management computer &amp; CAN bus in the 996</figcaption></figure><p>It has an 'eGas' pedal connected to the instrument cluster, which in turn was connected to two CAN buses - one for the drive-train and one for 'comfort' (Porsche's word for climate control and entertainment systems). Having two buses keeps the important traffic like accelerator &amp; brakes separate from the non-important traffic, like what the air conditioning is doing. (There is some overlap, as the a/c will trigger the compressor which does alter what the engine is doing... but this is controlled by the instrument cluster which is connected to both CAN buses.)</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://autohackers.org/content/images/2022/09/image-2.png" class="kg-image" alt="Bosch 'Cartronic' unit" loading="lazy" width="1000" height="750" srcset="https://autohackers.org/content/images/size/w600/2022/09/image-2.png 600w, https://autohackers.org/content/images/2022/09/image-2.png 1000w" sizes="(min-width: 720px) 720px"><figcaption>Bosch 'Cartronic' unit</figcaption></figure><p>The capture of traffic was performed after tapping the CAN high and low wires (and getting decent grounding to the chassis of the car).</p><p>CAN dump log file is in <a href="https://github.com/autohackers/CrikeyCon8CTF">https://github.com/autohackers/CrikeyCon8CTF</a></p><p>The dump file shows the following:</p><ul><li>engine being started (and a pause while I'm "wow, this is working!")</li><li>reversing up/out of driveway</li><li>driving around our block</li><li>back into driveway and switching off engine</li></ul><hr><h3 id="instrument-cluster-for-playback">Instrument Cluster for playback</h3><p>The idea of the capture was to learn about the CAN bus traffic in the 996 and also to be able to replay it and see what we can tweak.</p><p>Unfortunately there aren't that many of this specific model in the whole world (just over 1200 accounted for - see <a href="https://www.40jahre911.com/">https://www.40jahre911.com/</a> if you're curious about the model) so finding any parts at a wrecker in Australia is kind of tough.</p><p>However I was able to locally(ish) source the instrument cluster from a similar vintage Porsche Boxter, that I know uses the same electronics gear, so I figured (honestly, made an "educated gamble") it would serve to replay the CAN traffic.🤞</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://autohackers.org/content/images/2022/09/image-4.png" class="kg-image" alt="Porsche Boxter Instrument Cluster (rear)" loading="lazy" width="1000" height="456" srcset="https://autohackers.org/content/images/size/w600/2022/09/image-4.png 600w, https://autohackers.org/content/images/2022/09/image-4.png 1000w" sizes="(min-width: 720px) 720px"><figcaption>Porsche Boxter Instrument Cluster (rear)</figcaption></figure><p>In case you're looking up details, the numbers from the dashboard above are Porsche: <strong>986 641 217 03</strong> FHB, type UK and VDO: 110.080.039/161</p><p>And, after figuring out the wiring of the connectors on the back of the cluster, a little wiring (you need +battery and +ignition for it to start accepting traffic) to hook the dashboard to a 12V supply and the CAN bus of the RPi, it worked!</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://autohackers.org/content/images/2022/09/image-5.png" class="kg-image" alt="Boxster instrument cluster replaying journey recorded in 996" loading="lazy" width="1000" height="526" srcset="https://autohackers.org/content/images/size/w600/2022/09/image-5.png 600w, https://autohackers.org/content/images/2022/09/image-5.png 1000w" sizes="(min-width: 720px) 720px"><figcaption>Boxster instrument cluster replaying journey recorded in 996</figcaption></figure><p>The final step was stopping the playback and seeing what items on the cluster could be directly addressed (or faked) using the CANsend tool. Some things, like the fuel gauge, are directly hooked up to sensors in the car (i.e. not the CAN bus). I managed to change data bound for the speedo, the tacho (RPM guage) and the engine temperature gauge. (I believe some other warning lights are also addressable but, at this point, I haven't found their identities - eg ABS &amp; traction control - as I haven't had the RPi secured well enough to, er, engage the traction control to the point it flashes a warning at me!)</p><p>Hence the CrikeyCon challenges available today are based on those three gauges. See the CTF board in the conference for more details... or come and see me at the car hacking desk! 😎</p><hr>
+    </section>
+
+
+</article>
+</main>
+
+
+
+
+
+    </div>
+
+    <footer class="site-footer outer">
+        <div class="inner">
+            <section class="copyright"><a href="https://autohackers.org">Autohackers</a> &copy; 2022</section>
+            <nav class="site-footer-nav">
+                
+            </nav>
+            <div><a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a></div>
+        </div>
+    </footer>
+
+</div>
+
+
+<script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous">
+</script>
+<script src="/assets/built/casper.js?v=d9067720f5"></script>
+<script>
+$(document).ready(function () {
+    // Mobile Menu Trigger
+    $('.gh-burger').click(function () {
+        $('body').toggleClass('gh-head-open');
+    });
+    // FitVids - Makes video embeds responsive
+    $(".gh-content").fitVids();
+});
+</script>
+
+
+
+</body>
+</html>
